@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emoji</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9db39805c4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="interview">
+      <div class="interview__inner">
+        <div class="interview__inner__emoji">
+          <div id="emoji--first">
+            <i class="fas fa-grin-alt"></i>
+          </div>
+          <div id="emoji--yes">
+            <i class="fas fa-smile-beam"></i>
+          </div>
+          <div id="emoji--no">
+            <i class="fas fa-frown"></i>
+          </div>
+        </div>
+        <div class="interview__inner__text">Do you like our web page?</div>
+        <div class="button">
+          <div id="value--yes">
+            <a id="clickYes">0</a>
+          </div>
+          <div id="button--yes" onclick="changeItemYes(), fire()">Yes</div>
+          <div id="button--no" onclick="changeItemNo(), fire()">No</div>
+          <div id="value--no">
+            <a id="clickNo">0</a>
+          </div>
+        </div>
+        <!-- /.button -->
+        <div class="fire">
+        <div id="fire-pic"><i class="fas fa-fire"></i></div>
+      </div>
+    </div>
+      <!-- /.interview__inner -->
+    </div>
+    <!-- /.inteview -->
+  </body>
+</html>

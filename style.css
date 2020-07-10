@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.interview {
+  height: 100vh;
+  display: flex;
+}
+.interview__inner {
+  text-align: center;
+  margin: auto;
+}
+.interview__inner__emoji {
+  font-size: 500px;
+  color: royalblue;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Emoji */
+#emoji--first {
+  position: absolute;
+  line-height: 0;
+  display: block;
+  font-size: 500px;
+  color: royalblue;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+#emoji--yes {
+  position: absolute;
+  line-height: 0;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+#emoji--no {
+  position: absolute;
+  line-height: 0;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/* Button */
+.button::selection {
+  background: transparent;
+}
+#button--yes {
+  background-color: royalblue;
+  width: 200px;
+  display: inline-block;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 10px 0 10px 0;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+#button--yes::selection {
+  background: transparent;
+}
+#button--yes:hover {
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+}
+#button--yes:active {
+  box-shadow: none;
+}
+#button--no {
+  background-color: royalblue;
+  width: 200px;
+  padding: 10px 0 10px 0;
+  display: inline-block;
+  border-radius: 25px;
+  cursor: pointer;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+#button--no::selection {
+  background: transparent;
+}
+#button--no:hover {
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+}
+#button--no:active {
+  box-shadow: none;
+}
+
+#value--yes {
+  margin-right: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  display: inline-block;
+  width: 100px;
+}
+#value--yes::selection {
+  background: transparent;
+}
+#value--no {
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  display: inline-block;
+  width: 100px;
+}
+#value--no::selection {
+  background: transparent;
+}
+/* Text */
+.interview__inner__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* fire */
+.fire {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+#fire-pic {
+  margin-top: 30px;
+  font-size: 30px;
+  color: grey;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
